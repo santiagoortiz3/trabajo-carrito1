@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin-right: 46rem;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/imagenes/mt.jpg);
+  background-size: cover;
+}
+img{
+  height: 95%;
+  width: 14%;
+}
+header {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Macondo', cursive;
+  font-size: 2rem;
+  color: #ffffff;
+  border-bottom: #ffffff 2px groove;
+  padding: 0;
+}
+
+
+select {
+  width: 12rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 42px #ffffff;
+  border-radius: -50px;
+  background-color: #221007;
+  color: #ffff;
+}
+.crear{
+  width: 12rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 22px #ffffff;
+  border-radius: -50px;
+  background-color: #221007;
+  color: #ffff;
+}
+.forcreardfor-add{
+  transform: translate(0px, 172px);
+  position: absolute;
+  height: 21px;
+  width: 100px;
+}
+.close{
+  position: absolute;
+  transform: translate(117px, -214px);
+  width: 5vh;
+}
+#agregar{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 51%;
+  color: white;
+  width: 19%;
+  background-color: #000000;
+  position: absolute;
+  transform: translate(10px, 339px);
+}
+#agregar input{
+  width: 70%;
+  margin-top: 10%;
+}
+.agregar .titulo{
+  text-align: center;
+  position: absolute;
+  transform: translate(80px, -99px);
+}
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-product {
+  margin: 1rem;
+  width: 10rem;
+  height: 13rem;
+  border-radius: 15px;
+  border: groove #3e6882 2px;
+  background-color: #98a2a8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-product {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  height: 50%;
+}
+
+.name-product {
+  margin-top: 0.8rem;
+  color: #000000;
+  font-family: 'Macondo', cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.price-product {
+  font-family: 'Macondo', cursive;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #582406;
+}
+
+.btn-add {
+  width: 8rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  font-size: 1rem;
+}
+
+.btn-add:hover,
+.btn-add:focus {
+  cursor: pointer;
+  background-color: #000000;
+  font-weight: 900;
+  color: #ff0000;
+}
+
+
+
+
+.close_card{
+  height: 18px;
+  width: 20px;
+  background-color: #000000;
+  color: white;
+  position: absolute;
+  transform: translate(63px, -25px);
+  border-radius: none;
+}
+#carrito{
+  cursor: pointer;
+}
+
+/* ======================== C A R R I T O ===========================*/
+.compra{
+  background-color: white;
+  border-radius: none;
+  color: #000000;
+  position: absolute;
+  transform: translate(10px, 45vh); 
+  width: 70%;
+  padding: 8px;
+  visibility: hidden;
+}
+.compra hr{
+  background-color: #000000;
+  height: 3px;
+}
+#closeCompra{
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  color: white;
+  transition: 1s;
+}
+#closeCompra:hover{
+  background-color: #ffffff;
+  color: #000000;
+  transition: 1s;
+}
+.vendido{
+  width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.imgCompra{
+  width: 25%;
+  padding: 10px;
+}
+.imgC{
+  width: 100%;
+}
